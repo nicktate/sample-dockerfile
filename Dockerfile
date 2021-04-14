@@ -5,6 +5,7 @@ RUN go build -mod=vendor -o bin/hello
 
 RUN mkdir -p a/b/c/d
 RUN touch a/b/c/d/foo
+RUN mv a/b/c/d/foo a/b/c/d/foo2
 
 FROM alpine:latest
 RUN apk --no-cache add ca-certificates
