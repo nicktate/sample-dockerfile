@@ -1,0 +1,21 @@
+{
+  "experimental" : "enabled",
+  "auths" : {
+    "s2r1.docr.space" : {
+      "auth" : "YjNhZmI2MDMyM2M2YjNlZjJkZGNkODlhZGM2ZDFiMDdhYjkwYTA4ZmNlMDZhNzY2YzdhMTRmNDQ1YTMxNTA5MzpiM2FmYjYwMzIzYzZiM2VmMmRkY2Q4OWFkYzZkMWIwN2FiOTBhMDhmY2UwNmE3NjZjN2ExNGY0NDVhMzE1MDkz"
+    },
+    "https://index.docker.io/v1/" : {
+
+    },
+    "localhost:8080" : {
+      "auth" : "NjQ0MjI5OjhkMzA5YTI5LWEyMGUtNGRlZS1hZjE2LTNhMDE2NjJjZWY2Yw=="
+    },
+    "quay.io" : {
+      "auth" : "bmlja3RhdGU6VGltcGYyMlEj"
+    },
+    "registry.digitalocean.com" : {
+      "auth" : "MGViMjg5MGE3MTBmZmFhZjdmODllZTE0ZmE2MDU3NTc3NGY4NjA1MDk2OWViMDAzZDNmZDQxNGEzOWNjMDM4YTowZWIyODkwYTcxMGZmYWFmN2Y4OWVlMTRmYTYwNTc1Nzc0Zjg2MDUwOTY5ZWIwMDNkM2ZkNDE0YTM5Y2MwMzhh"
+    }
+  },
+  "stackOrchestrator" : "swarm"
+}

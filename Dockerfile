@@ -3,6 +3,8 @@ WORKDIR /app
 COPY . .
 RUN go build -mod=vendor -o bin/hello
 
+RUN touch testfile && echo "what" > testfile
+
 FROM alpine:latest
 RUN apk --no-cache add ca-certificates
 WORKDIR /root/
