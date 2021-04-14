@@ -3,11 +3,8 @@ WORKDIR /app
 COPY . .
 RUN go build -mod=vendor -o bin/hello
 
-RUN touch testfile && echo "what" > testfile
-RUN rm testfile
-RUN mkdir testdir
-RUN touch testdir/nick
-RUN touch testdir/nick2
+RUN mkdir -p a/b/c/d
+RUN touch a/b/c/d/foo
 
 FROM alpine:latest
 RUN apk --no-cache add ca-certificates
