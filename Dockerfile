@@ -5,6 +5,9 @@ RUN go build -mod=vendor -o bin/hello
 
 RUN touch testfile && echo "what" > testfile
 RUN rm testfile
+RUN mkdir testdir
+RUN touch testdir/nick
+RUN touch testdir/nick2
 
 FROM alpine:latest
 RUN apk --no-cache add ca-certificates
