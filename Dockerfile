@@ -4,7 +4,6 @@ COPY . .
 RUN go build -mod=vendor -o bin/hello
 
 RUN touch testfile && echo "what" > testfile
-RUN touch anotherfile 
 RUN rm testfile
 
 FROM alpine:latest
